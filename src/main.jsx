@@ -7,7 +7,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/gamedev_portfolio_site">
       <App />
     </BrowserRouter>
   </StrictMode>,

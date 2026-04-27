@@ -14,7 +14,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_oys0vpl', 'template_4ktyyuj', form.current, 'syDEJe2jlfdl-0bTB')
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    )
     e.target.reset()
       .then((result) => {
           console.log(result.text);
