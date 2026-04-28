@@ -1,4 +1,5 @@
-import React from 'react'
+// NOTE: This footer is gonna need to be completely changed and reconsidered.
+
 import './footer.css'
 
 import {BsFacebook} from 'react-icons/bs'

@@ -1,4 +1,3 @@
-import React from 'react'
 import './details.css'
 
 import {BiCheck} from 'react-icons/bi'
@@ -15,33 +14,33 @@ const Details = () => {
         {/* DETAILS LIST 1 */}
         <article className="details__section">
           <div className="details__head">
-            <h3>Interests</h3>
+            <h3>Favorite Multiplayer Games</h3>
           </div>
 
           <ul className="details__list">
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Cooking</p>
+              <p>Hearthstone</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Hiking</p>
+              <p>Riftbound</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Skiing</p>
+              <p>League of Legends</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Reading</p>
+              <p>Hunt: Showdown</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Films</p>
+              <p>Playerunknown's Battlegrounds</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Gaming</p>
+              <p>Valheim</p>
             </li>
           </ul>
         </article>
@@ -50,35 +49,43 @@ const Details = () => {
         {/* DETAILS LIST 2 */}
         <article className="details__section">
           <div className="details__head">
-            <h3>Personal Traits</h3>
+            <h3>Favorite Games as Art</h3>
           </div>
 
           <ul className="details__list">
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Friendly</p>
+              <p>Outer Wilds</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Empathetic</p>
+              <p>The FromSoftware Catalogue</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Passionate</p>
+              <p>Undertale</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Curious</p>
+              <p>Hollow Knight & Silksong</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Analytical</p>
+              <p>Cairn</p>
             </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
-              <p>Communicative</p>
+              <p>Night in the Woods</p>
             </li>
 
+            {/* Other potential candidates: 
+            Hyper Light Drifter 
+            Zelda
+            Final Fantasy
+            Journey
+            Clair Obscur
+
+            */}
 
           </ul> 
         </article>
@@ -87,11 +94,19 @@ const Details = () => {
         {/* DETAILS LIST 3 */}
         <article className="details__section">
           <div className="details__head">
-            <h3>Experience</h3>
+            <h3>Not sure what we want here.</h3>
           </div>
 
           <ul className="details__list">
 
+            <li>
+              <VscCircleFilled className="details__list-icon" />
+              <p>Previously a list of experience.</p>
+            </li>
+            <li>
+              <VscCircleFilled className="details__list-icon" />
+              <p>Maybe game design values?</p>
+            </li>
             <li>
               <VscCircleFilled className="details__list-icon" />
               <p>SWE in the IPTV Industry.</p>

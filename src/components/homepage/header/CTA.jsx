@@ -1,7 +1,7 @@
 import React from 'react'
 
-import CV from '../../assets/BenSchwartz_CV.pdf'
-import CV2025 from '../../assets/BenSchwartz_CV_2025.pdf'
+import CV from '../../../assets/BenSchwartz_CV.pdf'
+import CV2025 from '../../../assets/BenSchwartz_CV_2025.pdf'
 
 // Call to action buttons
 const CTA = () => {

@@ -1,4 +1,6 @@
-import React from 'react'
+// This is the old little nav element that just scrolled you to parts on the page.
+// Currently not being used. Might go back to it later though. Wanna keep the example of how to do it anyway.
+
 import './nav.css'
 import { useState, useEffect } from 'react'
 

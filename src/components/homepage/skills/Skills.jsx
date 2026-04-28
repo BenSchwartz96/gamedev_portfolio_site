@@ -1,4 +1,3 @@
-import React from 'react'
 import './skills.css'
 
 import {BsPatchCheckFill} from 'react-icons/bs'
