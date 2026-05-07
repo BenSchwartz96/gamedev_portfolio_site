@@ -2,7 +2,7 @@ import './header.css'
 
 //Components
 import CTA from './CTA'
-import HeaderSocials from './headerSocials'
+import HeaderSocials from './HeaderSocials'
 
 
 // Assets

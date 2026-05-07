@@ -1,0 +1,48 @@
+header {
+
+  height: auto;   
+  overflow: hidden;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.agis__header h1 {
+  font-size: 5rem;
+}
+
+
+/* ==== Media Queries ==== */
+
+/* Medium devices (tablets) */
+@media screen and (max-width: 1024px) {
+  header {
+    /* height: 68vh; */
+  }
+
+  .me-img {
+    width: 30%;
+  }
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 600px) {
+  header {
+    /* height: 85vh;          */
+  }
+
+  .header__intro {
+    margin-top: 30%;
+  }
+
+  .header_socials {
+    display: none;
+  }
+
+  .me-img {
+    width: 80%;
+  }
+}
