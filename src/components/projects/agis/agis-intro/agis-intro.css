@@ -6,3 +6,20 @@
   /* display: block; */
   /* margin: 0 auto; */
 }
+
+.agis-gallery-buttons__container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem auto;
+}
+
+.agis-gallery-button {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  background: var(--color-ui-purple);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}

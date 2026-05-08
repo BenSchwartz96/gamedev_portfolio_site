@@ -1,14 +1,32 @@
 import './agis-intro.css'
+import { useState } from 'react'
 
+
+//Images
 import agis_main_menu from '../../../../assets/Agis/MainMenu.jpg'
+import agis_lvl_1 from '../../../../assets/Agis/Level1.jpg'
+import agis_lvl_4 from '../../../../assets/Agis/Level4.jpg'
+import agis_lvl_6 from '../../../../assets/Agis/Level6.jpg'
 
 const AgisIntro = () => {
+
+  const [currentImage, setCurrentImage] = useState(0)
+  const images = [agis_main_menu, agis_lvl_1, agis_lvl_4, agis_lvl_6]
+
+  const prev = () => setCurrentImage(currentImage === 0 ? 3 : currentImage - 1)
+  const next = () => setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1)
+
   return (
 
     <div className='container agis-intro__container'>
 
-        <div className='agis-intro__pic1'>
-            <img src={agis_main_menu} alt="Agis title screen" />
+        <div className='agis-intro__gallery'>
+            {/* <button></button> */}
+            <img src={images[currentImage]}/>
+        </div>
+        <div className='container agis-gallery-buttons__container'>
+            <button className='agis-gallery-button' onClick={prev}> Prev </button>
+            <button className='agis-gallery-button' onClick={next}> Next </button>
         </div>
 
         <div className='agis-intro__content-1'>

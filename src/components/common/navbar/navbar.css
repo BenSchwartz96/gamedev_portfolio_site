@@ -9,7 +9,7 @@
     z-index: 2;
 
     /* Navbar Styling & Visuals */
-    background: rgba(112, 21, 97, 0.8);
+    background: var(--color-ui-purple);
     /* background: rgba(179, 20, 126, 0.5); */
     border-radius: 3rem;
     backdrop-filter: blur(15px);
