@@ -21,7 +21,9 @@ const AgisIntro = () => {
     <div className='container agis-intro__container'>
 
         <div className='agis-intro__gallery'>
-            {/* <button></button> */}
+            <span className='agis-intro__gallery-counter'>
+                {currentImage + 1}/{images.length}
+            </span>
             <img src={images[currentImage]}/>
         </div>
         <div className='container agis-gallery-buttons__container'>
