@@ -19,7 +19,7 @@
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-secondary: #2c7f85;
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.75);
   
   /* Old color variables w Blue scheme */
   /* --color-bg: #1f1f38;
@@ -55,6 +55,7 @@ body {
   /* Font */
   font-family: 'Poppins', sans-serif;
   line-height: 1.7;
+  font-size: 16;
 
   /* General */
   padding-top: 7rem;
@@ -68,15 +69,16 @@ body {
 
 
 
-
-
-
-
 /* ==== General Styles ==== */
 
 .container {
   width: var(--container-width-lg);
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+p {
+  /* color: var(--color-light); */
 }
 
 h1, h2, h3, h4, h5 {
@@ -88,7 +90,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 
 section > h2, 

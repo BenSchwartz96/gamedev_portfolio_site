@@ -9,7 +9,7 @@
 }
 
 .about__content {
-  margin: 20% 0;
+  margin: 5rem 0rem;
 }
 
 .about__me {
@@ -75,7 +75,7 @@
 
 .about__content p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  /* color: var(--color-light); */
 }
 
 
@@ -89,7 +89,7 @@
   }
 
   .about__content {
-    margin: 10% 0;
+    /* margin: 10% 0; */
   }
 }
 

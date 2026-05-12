@@ -19,30 +19,10 @@ header {
 
 /* Medium devices (tablets) */
 @media screen and (max-width: 1024px) {
-  header {
-    /* height: 68vh; */
-  }
 
-  .me-img {
-    width: 30%;
-  }
 }
 
 /* Small devices (phones) */
 @media screen and (max-width: 600px) {
-  header {
-    /* height: 85vh;          */
-  }
-
-  .header__intro {
-    margin-top: 30%;
-  }
-
-  .header_socials {
-    display: none;
-  }
-
-  .me-img {
-    width: 80%;
-  }
+ 
 }

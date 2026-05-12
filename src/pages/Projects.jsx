@@ -1,7 +1,7 @@
 import Navbar from '../components/common/navbar/Navbar'
 import ProjectsHeader from '../components/projects/header/ProjectsHeader'
 import AgisHeader from '../components/projects/agis/agis-header/AgisHeader'
-import AgisIntro from '../components/projects/agis/agis-intro/AgisIntro'
+import Agis from '../components/projects/agis/agis-section/Agis'
 
 const Projects = () => {
 
@@ -11,7 +11,7 @@ const Projects = () => {
             <Navbar/>
             <ProjectsHeader />
             <AgisHeader />
-            <AgisIntro />
+            <Agis />
         </>
     )
 }

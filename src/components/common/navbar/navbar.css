@@ -10,12 +10,13 @@
 
     /* Navbar Styling & Visuals */
     background: var(--color-ui-purple);
-    /* background: rgba(179, 20, 126, 0.5); */
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     
-    width: 100%;
+    width: 95%;
     height: 80px;
+    left: 50%;
+    transform: translateX(-50%);
     padding-left: 2rem;
     
     /* Parameters I don't want to use for now. */
