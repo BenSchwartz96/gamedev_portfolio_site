@@ -14,6 +14,10 @@ header {
   font-size: 5rem;
 }
 
+.agis__subheaders {
+  margin-bottom: 1rem;
+}
+
 
 /* ==== Media Queries ==== */
 
